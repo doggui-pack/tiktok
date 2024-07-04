@@ -1,0 +1,217 @@
+/* ==UserStyle==
+@name           doggui tiktok
+@namespace      github.com/doggui-pack/tiktok
+@version        1.0.0
+@description    Doggui for tiktok
+@author         Kerogs
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.tiktok.com/") {
+    :root {
+        --misty-rose: #fde8e4;
+        --light-red: #f6d0d0;
+        --pink-lace: #fbd8f0;
+        --mauve: #d1b3ff;
+        --light-salmon-pink: #f29a9c;
+        --amaranth-pink: #f2aab0;
+        --macaroni-and-cheese: #fbb693;
+        --wheat: #f3d7b1;
+        --granny-smith-apple: #b7e4a1;
+        --pale-robin-egg-blue: #9cdbc9;
+        --non-photo-blue: #a2e2eb;
+        --baby-blue: #89d6ee;
+        --jordy-blue: #9cb6f5;
+        --lavender-blue: #c4c8fb;
+        --azureish-white: #dde3fa;
+        --periwinkle-crayola: #c9d2e9;
+        --light-steel-blue: #b1badb;
+        --blue-bell: #9ea3c1;
+        --cool-grey: #8991ad;
+        --rhythm: #747c99;
+        --dark-electric-blue: #626781;
+        --independence: #4d526b;
+        --charcoal: #3b3f5a;
+        --gunmetal: #2a2e48;
+        --yankees-blue: #232540;
+        --dark-gunmetal: #1a1b2c;
+    }
+    
+    /* Body */
+    body{
+        background-color:var(--dark-gunmetal);
+    }
+    
+    
+    .css-1stfops-DivCommentContainer{
+        background-color:var(--dark-gunmetal);
+    }
+    
+    /* header */
+    .css-r6z8ii-DivHeaderContainer{
+        background:#23254080;
+        backdrop-filter: blur(20px);
+    }
+    
+    .css-ivpmel-SupMsgBadge,
+    .css-se410f-SupBadge{
+        background-color:var(--mauve);
+        color:var(--dark-gunmetal);
+    }
+    
+    /* left bar */
+    
+    .css-1qs75bj-DivScrollContainer-StyledScroll{
+        margin:20px 10px;
+        border-radius:10px;
+        background-color:var(--yankees-blue);
+    }
+    
+    .css-1eo184-DivFooterContainer{
+        display:none;
+    }
+    
+    .css-lg2ydv-PShowMoreText{
+        color:var(--mauve);
+    }
+    
+    .css-1w4z2zz-SvgRedDot svg{
+        fill:var(--mauve) !important;
+    }
+    /* fyp */
+    .css-18e9sac-ButtonGetAppText{
+        display:none;
+    }
+    
+    .css-1jvk1e5-Button-StyledFollowButtonTux{
+        color:var(--mauve);
+        border:1px solid var(--mauve);
+    }
+    
+    .css-1jvk1e5-Button-StyledFollowButtonTux:hover:not(:disabled):not([aria-disabled="true"]){
+        background-color:var(--charcoal);
+    }
+    
+    .css-1uc6di1-ButtonIconContainer,
+    .css-1uc6di1-ButtonIconContainer:hover{
+        background-color:var(--mauve);
+    }
+    
+    .css-1uc6di1-ButtonIconContainer svg,
+    .css-1uc6di1-ButtonIconContainer:hover svg{
+        fill:var(--dark-gunmetal);
+    }
+    
+    /* video */
+    .css-1qjw4dg-DivContentContainer{
+        background-color:var(--dark-gunmetal);
+        margin:18px;
+        border-radius:20px;
+        overflow:hidden;
+    }
+    
+    .css-1du5qfl-DivTabMenuWrapper{
+        background-color:var(--dark-gunmetal);
+        
+    }
+    
+    .css-hwc5eg-DivBottomCommentContainer{
+        background-color:var(--yankees-blue);
+        margin:20px;
+        border-radius:20px;
+        padding:10px;
+    }
+    
+    .css-tp15oe-DivBrowserModeContainer{
+        width:100%;
+    }
+    .css-tp15oe-DivBrowserModeContainer{
+        background:var(--yankees-blue);
+    }
+    .css-18e9va3-DivContainer{
+        padding:20px 0;
+        overflow:hidden;
+    }
+    .css-xhj3u2-StyledVideoBlurBackground{
+        filter:blur(6px);
+        overflow:hidden;
+    }
+    
+    .css-1pcikqk-Button{
+        background-color:var(--mauve);
+        border-color:var(--mauve);
+        color:var(--dark-gunmetal);   
+    }
+    .css-zydp9q-DivContainer{
+        background-color:#23254080;
+        backdrop-filter: blur(10px);
+    }
+    .css-1tunefa-DivVideoContainer{
+        background:none;
+    }
+    .css-zqqb1u-DivSearchBarContainer{
+        width:auto;
+    }
+    .css-18und9g-InputElement{
+        caret-color:var(--mauve);
+        border-radius:0 !important;
+    }
+    .css-zs9tvf-DivBrowserModeInputBorder{
+        border:1px solid #232540;
+        background-color: #23254040;
+        border-radius:15px;
+        backdrop-filter: blur(10px)
+    }
+    .css-1vve6pb-DivSearchBarBackground{
+        background:none;
+    }
+    
+    .css-6ywa7u-DivEmojiSuggestionContainer,
+    .css-rzk1se-LiItem,
+    .css-rqfro0-DivMentionSuggestionContainer,
+    .css-1xtu8iu-DivItemContainer{
+        background-color:var(--yankees-blue) !important;
+    }
+    .css-usyvsy-DivContainer{
+        background:none;
+    }
+    .css-1mc6yu2-DivPostButton{
+        color:var(--mauve);
+    }
+    .css-1qkggn6-DivInputAreaContainer .public-DraftEditor-content{
+        caret-color:var(--mauve);
+    }
+    .css-uou5c3-SpanIdentity{
+        color:var(--mauve) !important;
+    }
+    /* Profile */
+    .css-3on00d-DivBadge{
+        background-color:var(--mauve);
+        color:var(--dark-gunmetal);
+    }
+    .css-12fi16u-FeedTabWrapper,
+    .css-n04trb-FeedTabWrapper{
+        background-color:var(--dark-gunmetal);
+    }
+    
+    .css-fdb4t9-Button-StyledFollowButton,
+    .css-fdb4t9-Button-StyledFollowButton:hover{
+        background:var(--mauve);
+        border:none;
+        color:var(--dark-gunmetal);
+    }
+    
+    .css-jv0gye-Button-StyledMessageButton{
+        border-color:var(--mauve);
+        color:var(--mauve);
+    }
+    .css-jv0gye-Button-StyledMessageButton:hover{
+        border-color:var(--mauve);
+        color:var(--mauve)
+        background-color:var(--yankees-blue) !important;
+    }
+    .css-188p4yk-ABioLink:link,
+    .css-188p4yk-ABioLink svg{
+        color:var(--mauve);
+        fill:var(--mauve);
+    }
+}
