@@ -28,3 +28,11 @@ Community-based and accessible to all, Doggui lets everyone personalize their in
 ## Installation
 1. Install Stylus
 2. copy and paste ``/doggui.css``
+
+## Preview
+<div align="center">
+<a href="assets/prev1.png"><img alt="preview" src="assets/prev1.png" width="49%"></a>
+<a href="assets/prev2.png"><img alt="preview" src="assets/prev2.png" width="49%"></a>
+<a href="assets/prev3.png"><img alt="preview" src="assets/prev3.png" width="49%"></a>
+<a href="assets/prev4.png"><img alt="preview" src="assets/prev4.png" width="49%"></a>
+</div>
